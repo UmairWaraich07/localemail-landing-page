@@ -74,6 +74,6 @@ export const downloadSteps = [
     id: "step-3",
     number: "3",
 
-    content: "Press Start and Let It Work.",
+    content: "Click search and Let It Work",
   },
 ];

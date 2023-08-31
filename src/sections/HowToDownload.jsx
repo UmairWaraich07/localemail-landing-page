@@ -1,4 +1,4 @@
-import downloadMail from "../assets/finishedrun.svg";
+import downloadMailImg from "../assets/download.svg";
 import { motion } from "framer-motion";
 
 const HowToDownload = () => {
@@ -22,7 +22,7 @@ const HowToDownload = () => {
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
         viewport={{ once: true }}
-        src={downloadMail}
+        src={downloadMailImg}
         alt="download-mail"
         className="w-full mt-8 sm:mt-12 overflow-hidden"
       />

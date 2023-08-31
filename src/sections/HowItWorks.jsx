@@ -1,4 +1,4 @@
-import startSearch from "../assets/Start a search.svg";
+import searchImg from "../assets/search.svg";
 import { downloadSteps } from "../constants";
 import { motion } from "framer-motion";
 
@@ -16,9 +16,9 @@ const HowItWorks = () => {
         className="flex-1 flex justify-center items-center lg:mr-10 mr-0 lg:mt-0 mt-2 relative rounded-[5px] overflow-hidden"
       >
         <img
-          src={startSearch}
+          src={searchImg}
           alt="how-app-works"
-          className="w-[100%] h-[100%] relative z-[5] rounded-[5px]"
+          className="w-[100%] h-[100%] relative z-[5]"
         />
       </motion.div>
       <motion.div
