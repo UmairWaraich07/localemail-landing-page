@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const HowToDownload = () => {
   return (
-    <section className="flex flex-col items-center justify-center py-6 sm:py-16">
+    <section className="flex flex-col items-center justify-center py-10 sm:py-16">
       <motion.h2
         initial={{ y: 150 }}
         whileInView={{ y: 0 }}

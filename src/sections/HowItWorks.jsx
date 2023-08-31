@@ -6,7 +6,7 @@ const HowItWorks = () => {
   return (
     <section
       id="works"
-      className="flex lg:flex-row  gap-10 flex-col-reverse sm:py-16 py-6 w-full"
+      className="flex lg:flex-row  gap-10 flex-col-reverse sm:py-16 py-10 w-full"
     >
       <motion.div
         initial={{ opacity: 0, x: -200 }}

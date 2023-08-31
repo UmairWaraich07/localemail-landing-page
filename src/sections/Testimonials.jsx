@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Testimonials = () => (
   <section
     id="clients"
-    className={`py-6 sm:py-16 flex items-center justify-center flex-col relative`}
+    className={`py-10 sm:py-16 flex items-center justify-center flex-col relative`}
   >
     <div
       className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16

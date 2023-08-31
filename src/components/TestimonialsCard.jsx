@@ -3,8 +3,8 @@ import { quotes } from "../assets";
 const TestimonialsCard = ({ content, name, title, img }) => {
   return (
     <div
-      className="flex justify-between flex-col px-10 py-12 rounded-[20px]
-      max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 testimonial-card"
+      className="flex justify-between flex-col px-6 py-8 rounded-[20px]
+      max-w-[350px] md:mr-8 sm:mr-5 mr-0 my-2 lg:my-4 testimonial-card"
     >
       <img
         src={quotes}
@@ -14,7 +14,7 @@ const TestimonialsCard = ({ content, name, title, img }) => {
         className="object-contain"
       />
 
-      <p className="font-sen font-normal text-[18px] leading-[32px] text-light opacity-[.75] my-10">
+      <p className="font-sen font-normal text-[18px] leading-[32px] text-light opacity-[.75] my-8">
         {content}
       </p>
 

@@ -36,7 +36,7 @@ const Features = () => {
   return (
     <section
       id="features"
-      className="py-6 sm:py-16 flex lg:flex-row items-center justify-start max-lg:justify-center flex-col"
+      className="py-10 sm:py-16 flex lg:flex-row items-center justify-start max-lg:justify-center flex-col"
     >
       <div className="flex-1 flex justify-center max-lg:items-center items-start flex-col max-lg:text-center">
         <motion.h2

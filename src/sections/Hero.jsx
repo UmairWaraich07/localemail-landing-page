@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className=" py-16">
+    <section className=" py-16 min-h-screen grid place-content-center">
       <div className="flex flex-col justify-center items-center">
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: "easeInOut" }}
+          transition={{ duration: 1, ease: "easeInOut" }}
           viewport={{ once: true }}
           className="text-[44px] leading-[60px] sm:text-[72px] sm:leading-[100px] font-chakra text-center"
         >

@@ -2,7 +2,7 @@ import Button from "../components/Button";
 import { motion } from "framer-motion";
 
 const CTA = () => (
-  <section id="cta">
+  <section id="cta" className="py-10 sm:py-16">
     <div className="flex flex-col justify-center items-center">
       <motion.h2
         initial={{ y: 150 }}
