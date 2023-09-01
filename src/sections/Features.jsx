@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Button from "../components/Button";
 import { features } from "../constants";
 import { motion } from "framer-motion";
