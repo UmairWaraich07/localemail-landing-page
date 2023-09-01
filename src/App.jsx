@@ -14,7 +14,7 @@ function App() {
         <Features />
         <HowItWorks />
         <HowToDownload />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <CTA />
       </div>
     </main>
